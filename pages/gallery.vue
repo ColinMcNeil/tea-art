@@ -129,7 +129,7 @@ export default {
       were dramatically lit to highlight contrasts in texture and slight \
       variations in form</div>"
     ],
-    current: 2,
+    current: 0,
     cardwidth:'250px',
   }),
   methods: {
