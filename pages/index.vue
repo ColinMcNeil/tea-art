@@ -15,6 +15,9 @@ export default {
 </script>
 <style scoped>
 .index {
+  background: url('~assets/Pagoda.svg') no-repeat;
+  background-size: 350px 32%;
+  background-position-x: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;

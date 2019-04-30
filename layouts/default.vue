@@ -4,7 +4,8 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Orienta');
 html, body {
-  font-family: 'Orienta'
+  font-family: 'Orienta';
+  margin: 0;
 }
 body *{
   transition: ease 0.2s all;
