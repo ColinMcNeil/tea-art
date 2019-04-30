@@ -1,6 +1,6 @@
 module.exports = {
   router: {
-    base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/greenwashing/" : "/"
+    base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/tea-art/" : "/"
   },
   build: {
     extractCSS: true
@@ -9,8 +9,6 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-
-      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
       { hid: 'description', name: 'description', content: 'A greenwashing demo site.' }
     ]
   }
